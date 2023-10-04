@@ -11,3 +11,228 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+a{
+  color: black;
+  text-decoration: none;
+}
+
+li{
+  list-style: none;
+}
+
+.list
+{
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+  margin-right: 4rem;
+  color: black;
+  font-weight: 600;
+  font-family: 'Karla', sans-serif;
+
+}
+
+.nav
+{
+  justify-content: space-between;
+  align-self: center;
+  margin-top: 1rem;
+  display: flex;
+  width: 70%;
+  height: 2rem;
+  align-items: center;
+  margin-right: 4rem;
+  margin-left: 4rem;
+}
+
+.image
+{
+  display: flex;
+  width: 20%;
+  margin-left: 4rem;
+}
+
+.header
+{
+
+  width: 100%;
+  height: 20rem;
+  background-color: rgb(13, 71, 18);
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+
+}
+
+.part
+{
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  height: 100%;
+  justify-content: center;
+  gap: 14px;
+}
+
+.main
+{
+  display: flex;
+  flex-direction: column;
+  margin-top: 5rem;
+  width: 62%;
+  gap:40px;
+  align-self: center;
+  height: 45rem;
+}
+
+.footer
+{
+  width: 100%;
+  height: 6rem;
+  background-color: violet;
+}
+
+.img 
+{
+  width: 90px;
+  height: 100px;
+  position: absolute;
+  left: 65%;
+  top: 8%;
+  border-radius: 40px;
+}
+
+.food
+{
+  border-radius: 40px;
+}
+
+.section
+{
+  width: 60%;
+  height: 100%;
+  position: relative;
+  align-self: center;
+}
+
+.title
+{
+  color: #cfb94e;
+
+  font-family: 'Markazi Text', serif;
+  font-size: 50px;
+  
+}
+.subtitle
+{
+  color: #edefee;
+  font-size: 30px;
+  font-family: 'Markazi Text', serif;
+
+}
+
+.button
+{
+  background-color: #f4ce14;
+  border-radius: 15px;
+  width: 40%;
+  height: 2.5rem;
+  border: none;
+  cursor: pointer;
+  font-family: 'Karla', sans-serif;
+  font-weight: bolder;
+  font-size: medium;
+}
+
+.paragraph
+{
+  font-family: 'Karla', sans-serif;
+  font-weight: bold;
+  color: #edefee;
+}
+
+.title-main
+{
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  color: black;
+  font-family: 'Markazi Text', serif;
+  font-size: 50px;
+}
+
+.btn-menu
+{
+  background-color: #f4ce14;
+  border-radius: 15px;
+  width: 20%;
+  height: 3rem;
+  border: none;
+  cursor: pointer;
+  font-family: 'Karla', sans-serif;
+  font-weight: bolder;
+  font-size: medium;
+}
+
+.cards
+{
+  display: flex;
+  flex-direction: row;
+}
+.card
+{
+  border-radius: 30px;
+  margin: 10px;
+  height: 500px;
+  width :33%;
+  background-color: antiquewhite;
+}
+
+.image-main
+{
+  width: 100%;
+  height: 50%;
+}
+
+.body-main
+{
+  display: flex;
+  flex-direction: column;
+  gap:50px;
+  width: 100%;
+  height: 50%;
+}
+
+.image-main
+{
+  width: 100%;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+}
+
+.body-card
+{
+  display: flex;
+  width:100%;
+  justify-content: space-around;
+  margin-top: 1.5rem;
+}
+
+.para-card
+{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-self: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+
+bottom
+{
+
+}

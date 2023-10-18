@@ -7,11 +7,11 @@ const Header = () => {
     <div className='header'>
       <div className='section'>
       <div className='part'> 
-      <div>
+      <div className='part1'> 
         <div className='title'>Little Lemon</div>
         <div className='subtitle'>Chicago</div>
       </div>
-        <div>
+        <div className='part2'>
         <p className='paragraph'>
         We are a family owned Mediterranean restaurent, focused on traditional recipes served with a modern twist.
         </p>
@@ -20,7 +20,7 @@ const Header = () => {
       </div>
 
       <div className='img'>
-        <img src={food} alt="" width={320} height={360} className="food"/>
+        <img src={food} alt="" className="food"/>
       </div>
       </div>
 

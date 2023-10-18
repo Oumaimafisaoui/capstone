@@ -46,15 +46,15 @@ const Main = () => {
             Variations may include toppings of tomato, vegetables, beans, cured meat, or cheese. In Italy, bruschetta is often prepared using a brustolina grill.
             </div>
             <div className='bottom'>
-<div>
-  Order Delivery
-</div>
-{/* <img src={icon} alt="icon"></img> */}
+            <div>
+              Order Delivery
+            </div>
+                    {/* <img src={icon} alt="icon"></img> */}
             </div>
             </div>
           </div>
           </div>
-          </div>
+        </div>
     </div>
   )
 }

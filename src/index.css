@@ -46,16 +46,20 @@ li{
   margin-left: 4rem;
 }
 
-.image
+
+
+.food
 {
   display: flex;
-  width: 20%;
   margin-left: 4rem;
+  border-radius: 40px;
+  width: 320px;
+  height: 360px;
+  margin-top:13px;
 }
 
 .header
 {
-
   width: 100%;
   height: 20rem;
   background-color: rgb(13, 71, 18);
@@ -65,16 +69,6 @@ li{
 
 }
 
-.part
-{
-  width: 40%;
-  display: flex;
-  flex-direction: column;
-  position: absolute;
-  height: 100%;
-  justify-content: center;
-  gap: 14px;
-}
 
 .main
 {
@@ -94,27 +88,31 @@ li{
   background-color: violet;
 }
 
-.img 
-{
-  width: 90px;
-  height: 100px;
-  position: absolute;
-  left: 65%;
-  top: 8%;
-  border-radius: 40px;
-}
-
-.food
-{
-  border-radius: 40px;
-}
-
 .section
 {
+  position: relative;
   width: 60%;
   height: 100%;
-  position: relative;
+  min-width: 500px;
   align-self: center;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.part
+{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: center;
+  min-width: 300px;
+}
+
+.part1 , .part2
+{
+  height: 50%;
 }
 
 .title
@@ -232,7 +230,7 @@ li{
   flex-direction: column;
 }
 
-bottom
+/* bottom
 {
 
-}
+} */

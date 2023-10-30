@@ -275,14 +275,16 @@ li{
 {
   display: flex;
   flex-direction: column;
-  gap:5rem;
-  margin-right: 2rem;
-  margin-left: 2rem;
+  gap:2.5rem;
+  width:100%;
+  margin:2rem;
+  padding: 4rem;
   height: 400px;
   justify-content: center;
   align-self: center;
   align-items: center;
-  width: 62%;
+  margin-bottom: 8rem;
+  background-color: rgb(13, 71, 18);
 }
 .says
 {
@@ -340,4 +342,6 @@ li{
 {
   font-family: 'Markazi Text', serif;
   font-size: 50px;
+  color: #cfb94e;
+
 }

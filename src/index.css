@@ -265,3 +265,79 @@ li{
   width:30px;
   height:30px;
 }
+.title-test
+{
+  font-size:large;
+  font-weight: 600;
+
+}
+.testimonials
+{
+  display: flex;
+  flex-direction: column;
+  gap:5rem;
+  margin-right: 2rem;
+  margin-left: 2rem;
+  height: 400px;
+  justify-content: center;
+  align-self: center;
+  align-items: center;
+  width: 62%;
+}
+.says
+{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 30px;
+}
+
+.CardTest
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  background-color: rgb(227, 227, 227);
+  width: 200px;
+  height: 200px;
+}
+
+.body-test
+{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0.4rem;
+
+}
+
+.rating
+{
+  margin-left: 1rem;
+  color: #e2913f;
+}
+
+.image-test
+{
+  width: 100px;
+  height: 100px;
+  margin: 0.4rem;
+}
+
+.text-test
+{
+  margin-left: 1rem;
+  font-style: italic;
+  color:rgb(75, 74, 74)
+}
+
+.name-test
+{
+  font-size: small;
+  font-weight: bold;
+}
+
+.head
+{
+  font-family: 'Markazi Text', serif;
+  font-size: 50px;
+}

@@ -7,6 +7,7 @@ import Main from './components/Main'
 import Footer from './components/Footer'
 import Card from './components/Card';
 import Testimonials from './components/Testimonials';
+import Chicago from './components/Chicago';
 
 
 const router = createBrowserRouter([
@@ -33,6 +34,7 @@ function App() {
     <Header/>
     <Main/>
     <Testimonials/>
+    <Chicago/>
     <Footer/>
     </div>
   ) 

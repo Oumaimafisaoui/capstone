@@ -23,14 +23,15 @@ li{
 
 .list
 {
-  width: 70%;
+  width: 50%;
   display: flex;
-  justify-content: space-between;
+  gap: 90px;
+  justify-content: end;
   margin-right: 4rem;
   color: black;
   font-weight: 600;
   font-family: 'Karla', sans-serif;
-
+  cursor: pointer;
 }
 
 .nav
@@ -39,14 +40,11 @@ li{
   align-self: center;
   margin-top: 1rem;
   display: flex;
-  width: 70%;
+  width: 60%;
   height: 2rem;
   align-items: center;
-  margin-right: 4rem;
   margin-left: 4rem;
 }
-
-
 
 .food
 {
@@ -105,15 +103,17 @@ li{
   width: 50%;
   display: flex;
   flex-direction: column;
-  height: 100%;
+  height: 70%;
   justify-content: center;
   min-width: 300px;
+  margin: auto;
 }
 
 .part1 , .part2
 {
   height: 50%;
 }
+
 
 .title
 {
@@ -183,11 +183,12 @@ li{
 }
 .card
 {
-  border-radius: 30px;
+  border-top-right-radius: 30px;
+  border-top-left-radius: 30px;
   margin: 10px;
   height: 500px;
   width :33%;
-  background-color: antiquewhite;
+  background-color: rgb(227, 227, 227);
 }
 
 .image-main
@@ -229,8 +230,38 @@ li{
   justify-content: space-evenly;
   flex-direction: column;
 }
-
-/* bottom
+.text
 {
+  font-size: small;
+  padding-right: 2rem;
+  padding-left: 2rem;
+  color:#4d4d4d
+}
+.bottom
+{
+  display: flex;
+  justify-content: space-between;
+  margin: 2rem;
+  gap:40px;
+  padding: 4px;
+  align-items: center;
+  font-size:smaller;
+  font-weight: 600;
+}
+.price
+{
+  color: #e2913f;
+  font-weight: bold;
+}
 
-} */
+.title-card
+{
+  font-weight: 600;
+  font-size: medium;
+}
+
+.bike
+{
+  width:30px;
+  height:30px;
+}

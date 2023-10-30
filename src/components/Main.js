@@ -3,7 +3,7 @@ import '../index'
 import greek from '../assets/greek salad.jpg'
 import lemon from '../assets/lemon dessert.jpg'
 import rest from '../assets/restaurant chef B.jpg'
-// import icon from ''
+import Card from './Card'
 const cards = [
   {
     title: "Greek salad",
@@ -33,28 +33,12 @@ const Main = () => {
           <button className='btn-menu'>Online Menu</button>
       </div>
       <div className='cards'>
-          <div className='card'>
-          <img src={greek} alt="greek" className='image-main'>
-          </img>
-          <div className='body-main'>
-            <div className='body-card'>
-              <div>Greek salad</div>
-              <div>12.99$</div>
-            </div>
-            <div className='para-card'>
-            <div>
-            Variations may include toppings of tomato, vegetables, beans, cured meat, or cheese. In Italy, bruschetta is often prepared using a brustolina grill.
-            </div>
-            <div className='bottom'>
-            <div>
-              Order Delivery
-            </div>
-                    {/* <img src={icon} alt="icon"></img> */}
-            </div>
-            </div>
-          </div>
-          </div>
-        </div>
+        {
+          cards.map((dish) => {
+           return  <Card title={dish.title} price={dish.price} description={dish.desc} image={dish.image} />
+          })
+        }
+      </div>
     </div>
   )
 }

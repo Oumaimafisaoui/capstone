@@ -1,7 +1,8 @@
 import React from 'react'
 import lemon from '../assets/Logo .svg'
 import '../index'
-
+import { Link } from 'react-router-dom';
+import Booking from './Booking';
 const Nav = () => {
   return (
     <nav className='nav'>
@@ -9,12 +10,8 @@ const Nav = () => {
         <img alt="" src={lemon} />
       </div>
         <ul className='list'>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Menu</a></li>
-            <li><a href="#">Reservation</a></li>
-            <li><a href="#">Order online</a></li>
-            <li><a href="#">Login</a></li>
+            <li><Link to="/">Home</Link></li>
+            <li><Link to="/booking">Booking a Table</Link></li>
         </ul>
     </nav>
   )

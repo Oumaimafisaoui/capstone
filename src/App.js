@@ -8,34 +8,20 @@ import Footer from './components/Footer'
 import Card from './components/Card';
 import Testimonials from './components/Testimonials';
 import Chicago from './components/Chicago';
+import Layout from './components/Layout';
 
-
-const router = createBrowserRouter([
- {
-
- },
- {
-
- },
- {
-
- },
- {
-  
- } 
-])
 
 
 
 function App() {
   return (
     <div className='container'>
-    <Nav/>
+    <Layout>
     <Header/>
     <Main/>
     <Testimonials/>
     <Chicago/>
-    <Footer/>
+    </Layout>
     </div>
   ) 
 }

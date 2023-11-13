@@ -97,6 +97,9 @@ li{
   width: 100%;
   height: 150px;
   background-color: rgb(13, 71, 18);
+  display: flex;
+  justify-content: space-evenly;
+  color: antiquewhite;
 }
 
 .section1
@@ -404,4 +407,68 @@ li{
   display: flex;
   flex-direction: column;
 
+}
+
+.booking
+{
+  height: 100vh;
+  margin: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap:80px;
+  width: 80vw;
+  align-self: center;
+  justify-content: center;
+  background-color: rgba(13, 71, 18, 0.601);
+}
+
+.formBooking
+{
+  display: flex;
+  flex-direction: column;
+  width: 100%; 
+  max-width: 500px; 
+  gap: 20px;
+  padding: 20px;
+}
+
+.input-book
+{
+  height: 30px;
+  border: none;
+  width: 500px;
+  align-self: center;
+}
+
+.input-book:focus
+{
+  outline: none;
+}
+
+.submit
+{
+  width: 200px;
+  align-self: center;
+  margin-top: 20px;
+  height: 35px;
+  border-radius: 50px;
+  color: #3c3c3c;
+  background-color: #cfb94e;;
+}
+
+label
+{
+  font-style: italic;
+  width: 500px;
+  align-self: center;
+  font-size: medium;
+  color: #1f1f1f;
+}
+
+.title-book
+{
+  font-size: larger;
+  font-weight: 700;
+  color: #eed55a;
 }

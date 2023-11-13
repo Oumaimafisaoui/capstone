@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import {BrowserRouter, Routes, Route} from "react-router-dom" 
-import Booking from './components/Booking';
+import BookingPage from './components/BookingPage';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -11,7 +11,7 @@ root.render(
     <BrowserRouter>
     <Routes>
       <Route path="/" element={<App/>}/>
-      <Route path="/booking" element={<Booking/>}/>
+      <Route path="/booking" element={<BookingPage/>}/>
     </Routes>
     </BrowserRouter>
   </React.StrictMode>

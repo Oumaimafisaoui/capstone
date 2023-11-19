@@ -1,6 +1,6 @@
 import {React, useState} from 'react'
 
-const BookingForm = ({setAvailableTimes , availableTimes}) => {
+const BookingForm = ({availableTimes , dispatch}) => {
 
 
   const [time, setTime] = useState('');
@@ -14,11 +14,16 @@ const BookingForm = ({setAvailableTimes , availableTimes}) => {
     console.log(availableTimes, time, people, occasion)
   }
 
+    const handleDateChange = (event) => {
+    const selectedDate = event.target.value;
+    dispatch({ type: 'SET_DATE', payload: selectedDate});
+  };
+
   return (
     <div>
   <form className='formBooking' onSubmit={submitForm}>
    <label className="label-book" htmlFor="res-date">Choose date</label>
-   <input className='input-book' type="date" id="res-date" onChange={(e) => setAvailableTimes(e.target.value)}/>
+   <input className='input-book' type="date" id="res-date" onChange={handleDateChange}/>
    <label className="label" htmlFor="res-time">Choose time</label>
    <select className='input-book' id="res-time" onChange={(e) => setTime(e.target.value)}>
       <option>17:00</option>

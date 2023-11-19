@@ -2,7 +2,7 @@ import React from 'react'
 import BookingForm from './BookingForm'
 import Layout from './Layout'
 
-const BookingPage = () => {
+const BookingPage = ({setAvailableTimes , availableTimes}) => {
   return (
     <div className='container'>
     <Layout>
@@ -11,7 +11,7 @@ const BookingPage = () => {
          Booking online:
       </div>
       <div className=''>
-        <BookingForm/>
+        <BookingForm setAvailableTimes={setAvailableTimes} availableTimes={availableTimes} />
       </div>
       </div>
     </Layout>

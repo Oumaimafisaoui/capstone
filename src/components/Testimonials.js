@@ -39,9 +39,9 @@ const Testimonials = () => {
         <div className='head'>Testimonials</div>
         <div className='says'>
             {
-                Test.map((test) =>
+                Test.map((test, index) =>
                 {
-                    return <TestimonialCard rating={test.rating} name={test.name} text={test.text} image={test.image}/>
+                    return <TestimonialCard rating={test.rating} key={index} name={test.name} text={test.text} image={test.image}/>
                 })
             }
         </div>

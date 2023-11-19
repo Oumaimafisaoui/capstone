@@ -34,8 +34,8 @@ const Main = () => {
       </div>
       <div className='cards'>
         {
-          cards.map((dish) => {
-           return  <Card title={dish.title} price={dish.price} description={dish.desc} image={dish.image} />
+          cards.map((dish, index) => {
+           return  <Card title={dish.title} key={index} price={dish.price} description={dish.desc} image={dish.image} />
           })
         }
       </div>

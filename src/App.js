@@ -1,28 +1,16 @@
-import React from 'react';
-import { Routes, Route, createBrowserRouter } from "react-router-dom"
+import {React, useState} from 'react';
+import {Routes, Route} from "react-router-dom"
 import './App.css';
-import Nav from './components/Nav'
-import Header from './components/Header'
-import Main from './components/Main'
-import Footer from './components/Footer'
-import Card from './components/Card';
-import Testimonials from './components/Testimonials';
-import Chicago from './components/Chicago';
-import Layout from './components/Layout';
+import BookingPage from './components/BookingPage';
+import Home from './components/Home';
 
-
-
-
-function App() {
+const App = ()  =>{
+  const [availableTimes, setAvailableTimes] = useState([]);
   return (
-    <div className='container'>
-    <Layout>
-    <Header/>
-    <Main/>
-    <Testimonials/>
-    <Chicago/>
-    </Layout>
-    </div>
+    <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/booking" element={<BookingPage availableTimes={availableTimes} setAvailableTimes={setAvailableTimes} />} />
+    </Routes>
   ) 
 }
 

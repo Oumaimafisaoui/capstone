@@ -3,6 +3,7 @@ import '@testing-library/jest-dom';
 import { initializeTimes } from '../App'; // Import the initializeTimes function
 import BookingPage from './BookingPage'
 import { render } from "@testing-library/react";
+import React from 'react';
 
 test('initializeTimes returns the expected object', () => {
     render(<BookingPage/>)

@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/capstone/static/css/main.cd19c70f.css",
-    "main.js": "/capstone/static/js/main.18993942.js",
-    "static/media/restaurant chef B.jpg": "/capstone/static/media/restaurant chef B.4b4c2d26b514db32e8fc.jpg",
-    "static/media/greek salad.jpg": "/capstone/static/media/greek salad.bed423a1fab5b210e347.jpg",
-    "static/media/restauranfood.jpg": "/capstone/static/media/restauranfood.e8abf5b772b6817189aa.jpg",
-    "static/media/Logo .svg": "/capstone/static/media/Logo .f72c913c48c5334f78f2c336ec36f22b.svg",
-    "static/media/bike.svg": "/capstone/static/media/bike.b1e09c5886bf36d01670bd60ca785ccf.svg",
-    "index.html": "/capstone/index.html",
-    "main.cd19c70f.css.map": "/capstone/static/css/main.cd19c70f.css.map",
-    "main.18993942.js.map": "/capstone/static/js/main.18993942.js.map"
+    "main.css": "./static/css/main.cd19c70f.css",
+    "main.js": "./static/js/main.54b9dc78.js",
+    "static/media/restaurant chef B.jpg": "./static/media/restaurant chef B.4b4c2d26b514db32e8fc.jpg",
+    "static/media/greek salad.jpg": "./static/media/greek salad.bed423a1fab5b210e347.jpg",
+    "static/media/restauranfood.jpg": "./static/media/restauranfood.e8abf5b772b6817189aa.jpg",
+    "static/media/Logo .svg": "./static/media/Logo .f72c913c48c5334f78f2c336ec36f22b.svg",
+    "static/media/bike.svg": "./static/media/bike.b1e09c5886bf36d01670bd60ca785ccf.svg",
+    "index.html": "./index.html",
+    "main.cd19c70f.css.map": "./static/css/main.cd19c70f.css.map",
+    "main.54b9dc78.js.map": "./static/js/main.54b9dc78.js.map"
   },
   "entrypoints": [
     "static/css/main.cd19c70f.css",
-    "static/js/main.18993942.js"
+    "static/js/main.54b9dc78.js"
   ]
 }

@@ -8,7 +8,7 @@ const BookingForm = ({availableTimes , dispatch}) => {
   const [time, setTime] = useState('');
   const [people, setPeople] = useState(0);
   const [occasion, setOccasion] = useState('');
-  const [confirmed, setConfirmed] = useState(true)
+  const [confirmed, setConfirmed] = useState(false)
 
   function submitForm(e)
   {

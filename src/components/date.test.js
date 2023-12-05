@@ -10,3 +10,5 @@ test('Renders the BookingForm heading', () => {
     const headingElement = screen.getByText("Choose date");
     expect(headingElement).toBeInTheDocument();
 });
+
+

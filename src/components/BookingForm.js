@@ -2,7 +2,6 @@ import {React, useState} from 'react'
 
 const BookingForm = ({availableTimes , dispatch}) => {
 
-
   const [time, setTime] = useState('');
   const [people, setPeople] = useState(1);
   const [occasion, setOccasion] = useState('');

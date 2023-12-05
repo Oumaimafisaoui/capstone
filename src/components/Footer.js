@@ -3,10 +3,31 @@ import '../index'
 const Footer = () => {
   return (
     <div className='footer'>
-      <div>1</div>
-      <div>2</div>
-      <div>3</div>
-      <div>4</div>
+      <div>Little Lemon</div>
+      <div>
+        <ul>
+          <li>Contact us</li>
+          <li>Locations</li>
+          <li>Products</li>
+          <li>Testimonials</li>
+        </ul>
+      </div>
+      <div>
+      <ul>
+          <li>Contact us</li>
+          <li>Locations</li>
+          <li>Products</li>
+          <li>Testimonials</li>
+        </ul>
+      </div>
+      <div>
+      <ul>
+          <li>Contact us</li>
+          <li>Locations</li>
+          <li>Products</li>
+          <li>Testimonials</li>
+        </ul>
+      </div>
     </div>
   )
 }

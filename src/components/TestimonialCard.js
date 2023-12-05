@@ -10,6 +10,7 @@ export const TestimonialCard = ({name, rating, text, image}) => {
         </div>
         <div className='text-test'>
             {text}
+      
         </div>
     </div>
   )

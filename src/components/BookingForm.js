@@ -8,7 +8,7 @@ const BookingForm = ({availableTimes , dispatch}) => {
   const [time, setTime] = useState('');
   const [people, setPeople] = useState(0);
   const [occasion, setOccasion] = useState('');
-  const [confirmed, setConfirmed] = useState(false)
+  const [confirmed, setConfirmed] = useState(true)
 
   function submitForm(e)
   {
@@ -62,8 +62,8 @@ const BookingForm = ({availableTimes , dispatch}) => {
     (
       <div className='confirmation'>
       <div>
-      Booking Confirmed thank you !
-      <button onClick={() => navigate("/")}>Go to home.</button>
+      <div>Booking Confirmed thank you !</div>
+      <button className="but" onClick={() => navigate("/")}>Go to home.</button>
       </div>
       </div>
     )
